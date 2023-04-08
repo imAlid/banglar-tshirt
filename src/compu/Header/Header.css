@@ -1,0 +1,12 @@
+nav a{
+   margin-right: 10px;
+   font-size: large;
+   background: teal;
+   padding: 10px;
+   color: aliceblue;
+   border-radius: 10px;
+}
+nav a:hover{
+   background: rgb(1, 101, 101);
+   color: aliceblue;
+}
