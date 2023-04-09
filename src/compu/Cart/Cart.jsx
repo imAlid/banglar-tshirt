@@ -9,7 +9,7 @@ const Cart = ({ cart, handleRemoveFromCart }) => {
   } else {
     message = (
       <div>
-        <small className="green">thanks for wasting your moneyyy</small>
+        <small>thanks for wasting your moneyyy</small>
       </div>
     );
   }
