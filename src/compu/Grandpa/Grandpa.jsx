@@ -11,11 +11,13 @@ const Grandpa = () => {
   return (
     <div className="grandpa">
       <h2>GrandPa</h2>
+      <ringContext.Provider value="Sonar-Ring">
       <section className="flex">
         <Father ring={ring}></Father>
         <Uncle></Uncle>
         <Aunty></Aunty>
       </section>
+      </ringContext.Provider>
     </div>
   );
 };
